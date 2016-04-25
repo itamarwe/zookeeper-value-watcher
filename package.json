@@ -1,6 +1,6 @@
 {
   "name": "zookeeper-value-watcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watch a Zookeeper value as it's updated.",
   "main": "lib/zookeeper-value-watcher.js",
   "scripts": {
