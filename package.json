@@ -1,0 +1,27 @@
+{
+  "name": "zookeeper-value-watcher",
+  "version": "1.0.0",
+  "description": "Watch a Zookeeper value as it's updated.",
+  "main": "lib/zookeeper-value-watcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itamarwe/zookeeper-value-watcher.git"
+  },
+  "keywords": [
+    "zookeeper",
+    "config",
+    "watch",
+    "reconnect"
+  ],
+  "prepublish": "gulp build",
+  "postpublish": "git push",
+  "author": "@itamarwe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itamarwe/zookeeper-value-watcher/issues"
+  },
+  "homepage": "https://github.com/itamarwe/zookeeper-value-watcher#readme"
+}
